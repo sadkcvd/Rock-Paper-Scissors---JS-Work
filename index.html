@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors JS Work</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <container>
+        <header>
+            <p>Rock-Paper-Scissors</p>
+        </header>
+
+        <div class="result">
+            <div class="choices">
+                <div id="userChoice">
+                    <!-- <p>User Choice:</p> -->
+                    <i id="userIcon"></i>
+                </div>
+                <p id="versus">VS</p>
+                <div id="computerChoice">
+                    <!-- <p>Computer Choice:</p> -->
+                    <i id="computerIcon"></i>
+                </div>
+            </div>
+        </div>
+
+        <p id="resultText"></p>
+        <div class="score">
+            <p>Score:</p>
+            <span id="userScore">0</span> - <span id="computerScore">0</span>
+        </div>
+
+        <div class="options">
+            <button class="rock"><i class="fas fa-fist-raised"></i>Rock</button>
+            <button class="paper"><i class="fas fa-sticky-note"></i>Paper</button>
+            <button class="scissors"><i class="fas fa-hand-scissors"></i>Scissors</button>
+        </div>
+
+        <button id="playAgain">Play Again</button>
+    </container>
+
+</body>
+
+</html>
